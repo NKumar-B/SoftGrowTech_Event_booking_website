@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Event</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="booking-page-body">
+    <div class="booking-container">
+        <div class="form-header">
+            <a href="index.html" class="back-link">&larr; Back to Home</a>
+            <h2>Complete Your Booking</h2>
+        </div>
+
+        <form id="bookingForm" novalidate>
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" placeholder="NITHYA" required>
+                <span class="error-message" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="nithya@example.com" required>
+                <span class="error-message" id="emailError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="eventType">Select Event Type</label>
+                <select id="eventType" name="eventType" required>
+                    <option value="" disabled selected>Choose an event...</option>
+                    <option value="Corporate Conference">Corporate Conference</option>
+                    <option value="Private Party">Private Party</option>
+                    <option value="Workshop / Meetup">Workshop</option>
+                    <option value="Birthdays">Birthday</option>
+                    <option value="anniversaries">Anniversary</option>
+                </select>
+                <span class="error-message" id="eventError"></span>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="eventDate">Preferred Date</label>
+                    <input type="date" id="eventDate" name="eventDate" required>
+                    <span class="error-message" id="dateError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <input type="number" id="guests" name="guests" min="1" max="500" placeholder="50" required>
+                    <span class="error-message" id="guestsError"></span>
+                </div>
+            </div>
+
+            <button type="submit" id="submitBtn" class="cta-button">Confirm Booking</button>
+        </form>
+    </div>
+
+    <div id="confirmationModal" class="modal hidden">
+        <div class="modal-content">
+            <h3 class="modal-title">Booking Confirmed !!</h3>
+            <p>Thank you for choosing Nithya Event Booking.</p>
+            
+
+            <div class="modal-details">
+                <p><strong>Name:</strong> <span id="display-name"></span></p>
+                <p><strong>Email:</strong> <span id="display-email"></span></p>
+                <p><strong>Event:</strong> <span id="display-event"></span></p>
+                <p><strong>Date:</strong> <span id="display-date"></span></p>
+                <p><strong>Guests:</strong> <span id="display-guests"></span></p>
+            </div>
+
+            <p>Booking details have been sent to the given Email.</p><br/>
+
+            <button id="modalOkBtn" class="cta-button">OK</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
