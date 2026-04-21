@@ -1,7 +1,11 @@
 # Nithya Event Booking 
 
 A premium, responsive front-end web application designed for booking corporate events, private parties, and workshops. The project features a modern UI with sophisticated interactions, client-side validation, and a seamless light/dark mode toggle.
-![Uploading image.png…]()
+
+<br/>
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/340dbdff-2224-408a-813e-20154beb7bf6" />
+
 <br/><br/>
 **[🟢 View Live Demo](https://NKumar-B.github.io/Event_booking_site/)** 
 ## Features
