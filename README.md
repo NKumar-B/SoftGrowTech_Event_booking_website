@@ -43,11 +43,11 @@ Because this project uses standard HTML/CSS/JS, no complex build tools or packag
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/NKumar-B/Event_booking_site.git](https://github.com/NKumar-B/Event_booking_site.git)
+   git clone [https://github.com/NKumar-B/SoftGrowTech_Event_booking_website.git](https://github.com/NKumar-B/SoftGrowTech_Event_booking_website.git)
    ```
 2. **Navigate to the directory:**
    ```bash
-   cd Event_booking_site
+   cd SoftGrowTech_Event_booking_website
    ```
 3. **Open the project:**
    Simply double-click the `index.html` file to open it in your default web browser. 
