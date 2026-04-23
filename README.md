@@ -7,7 +7,7 @@ A premium, responsive front-end web application designed for booking corporate e
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/340dbdff-2224-408a-813e-20154beb7bf6" />
 
 <br/><br/>
-**[🟢 View Live Demo](https://NKumar-B.github.io/Event_booking_site/)** 
+**[🟢 View Live Demo](https://NKumar-B.github.io/SoftGrowTech_Event_booking_website/)** 
 ## Features
 
 * **Premium UI/UX:** Built with a default dark theme featuring sophisticated animated glowing underlines, smooth hover transitions, and glassmorphism elements.
