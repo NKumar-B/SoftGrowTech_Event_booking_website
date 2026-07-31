@@ -10,7 +10,7 @@ A premium, responsive front-end web application designed for booking corporate e
 
 * **Premium UI/UX:** Built with a default dark theme featuring sophisticated animated glowing underlines, smooth hover transitions, and glassmorphism elements.
 * **Light/Dark Mode Toggle:** Users can switch between themes instantly. The choice is saved to the browser's `localStorage`, ensuring the theme persists across pages and reloads.
-* **Scroll Spy Navigation:** The navigation bar automatically highlights the active section as the user scrolls down the page, providing a great user experience.
+* **Scroll Spy Navigation:** The navigation bar automatically highlights the active section as the user scrolls down the page, providing a great user experience. 
 * **Client-Side Form Validation:** The booking form prevents submission and provides real-time error feedback if fields (Name, Email, Date, Guests) are empty or formatted incorrectly. 
 * **Interactive Modal Popup:** Upon successful form submission, a hidden modal seamlessly animates into view displaying a summary of the user's booking details.
 * **Fully Responsive:** Uses modern CSS properties to ensure the layout adapts beautifully to desktops, tablets, and mobile devices.
